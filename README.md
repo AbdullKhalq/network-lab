@@ -21,3 +21,13 @@ Practical applications such as building a network in Cisco Packet Tracer.
 - PAT (NAT overload) — allowed several private devices to share the router's single outside IP address.
 - ACL for NAT — used a standard ACL to specify which private network should be translated.
 - Verification/troubleshooting — used commands such as show ip interface brief, show ip dhcp binding, show ip nat translations, and ping.  
+
+[Lab 07](https://github.com/AbdullKhalq/network-lab/blob/e4ff19bf06313b15dcec2a8c7e59a6a6c932317b/review/lab-07-ip-addressing.pkt): Designed a small company network in Cisco Packet Tracer with three departments. Applied Variable Length Subnet Masking (VLSM) to allocate IPv4 subnets efficiently, configured IPv4 connectivity, and implemented IPv6 dual-stack networking with Stateless Address Autoconfiguration (SLAAC). Also practiced identifying IPv4 address classes, private/public addresses, and special-purpose addresses.
+
+- IPv4 addressing, subnetting, CIDR, and VLSM.
+- Calculating subnet masks, network addresses, broadcast addresses, and usable host ranges.
+- Configuring Cisco routers and end devices using IOS CLI.
+- Configuring IPv4 and IPv6 dual-stack networks.
+- Implementing IPv6 SLAAC.
+- Verifying connectivity using ping, ipconfig, and Cisco IOS show commands.
+- Classifying IPv4 addresses, including RFC 1918, APIPA, loopback, and multicast.
