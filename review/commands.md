@@ -67,7 +67,14 @@ Making an Access Control List (ACL) that identifies the private addresses to tra
 
     where 203.0.113.5 is the address on g0/1.
 
+### IPv6
+
+- `Router0(config)# ipv6 unicast-routing`: Enables IPv6 unicast packet forwarding globally on the router, allowing it to route IPv6 packets between different networks. It also enables IPv6 Router Advertisement (RA) messages on appropriately configured interfaces, supporting SLAAC (Stateless Address Auto Configuration).
+- `Router0(config-if)# ipv6 address 2001:db8:acad:10::1/64`: Assigns the IPv6 address `2001:db8:acad:10::1` to the interface. The `/64` prefix length indicates that the first 64 bits identify the network (`2001:db8:acad:10::/64`), while the remaining 64 bits identify the interface within that network.
 
 ## General commands
 
 - `exit`: Returns back one configuration level.
+- `Router0>enable`: is the Cisco IOS command used to move from User EXEC mode into Privileged EXEC mode
+- `Router#configure terminal`: moves you from Privileged EXEC mode into Global Configuration mode. This is where you change the router’s configuration, such as interfaces, routing, passwords, DHCP, and other global settings.
+- `Router(config)#hostname Router0`: Optionally changes name of the host. Currently, a router.
